@@ -1,0 +1,566 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /*  */
+
+    .hero-area .row > * {
+        width: 100%;
+    }
+
+    .about-content {
+        left: 0;
+        bottom: 60px;
+    }
+
+    .expert-content:hover .expert-social {
+        opacity: 1;
+        bottom: 26%;
+    }
+
+    .news-content h2 {
+        font-size: 18px;
+    }
+
+    .news-content h2 br {
+        display: none;
+    }
+
+    .news-content1 p {
+        font-size: 14px;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+     /* Header  */
+
+     .nav-items ul {
+        display: none;
+    }
+
+    .menu-bar-btn {
+        display: block;
+    }
+
+    /* services */
+
+    .services-area {
+        padding: 80px 0 40px 0;
+      }
+
+    .services-item {
+        margin: 0 0 35px 0;
+    }
+
+    /* About Area */
+
+    .about-area {
+        padding: 80px 0;
+    }
+
+    .about-content {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin: 0 0 30px 0;
+    }
+
+    .process-content {
+        padding: 30px 0 0 0;
+    }
+
+    .flickity-page-dots:first-of-type li {
+        left: 28%;
+    }
+
+    .expert-content {
+        padding: 20px  0;
+    }
+
+    .element-item {
+        width: 50%; 
+    }
+
+    .news-content {
+        margin: 0 0 25px 0;
+    }
+
+    .contact-content {
+        padding: 25px 0 0 0;
+    }
+
+    .contact-content p br {
+        display: none;
+    }
+
+    .footer-content2 {
+        padding-left: 0;
+    }
+
+    .footer-content {
+        margin: 40px 0 0 0;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+    /* Header  */
+
+    .nav-items ul {
+        display: none;
+    }
+
+    .menu-bar-btn {
+        display: block;
+    }
+
+    /*  Hero Area Start */
+
+    .hero-area {
+        padding: 20px 0;
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+        line-height: 38px;
+        margin: 15px 0 10px 0;
+    }
+
+    .hero-content h2 br {
+        display: none;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        margin: 0 0 25px 0;
+    }
+
+    .hero-content a {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+
+    .hero-right img {
+        width: 100%;
+        margin: 30px  0 0 0;
+    }
+
+    /* Our Services Area Start  */
+
+    .services-area {
+        padding: 30px 0;
+    }
+
+    .services-title h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 0 10px 0;
+    }
+
+    .services-title p {
+        font-size: 15px;
+        margin: 15px 0 30px 0;
+    }
+
+    .services-title p br {
+        display: none;
+    }
+
+    .services-item p {
+       text-align: justify;
+    }
+
+    /* About Area */
+
+    .about-area {
+        padding: 40px 0;
+    }
+
+    .about-content {
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .about-content h2 br {
+        display: none;
+    }
+
+    .about-content p br {
+        display: none;
+        margin: 0;
+    }
+
+    .progress-area {
+        padding: 15px 0 20px 0;
+    }
+
+    .progress-area h2 {
+        font-size: 16px;
+    }
+
+    
+    /*  Our Process Area Start */
+
+    .our-process {
+        padding: 40px 0;
+    }
+
+    .process-content {
+        padding: 30px 0 0 0;
+    }
+
+    /*  Achivments Area Start */
+
+    .achivements-area {
+        padding: 40px 0;
+    }
+
+    /*  Testimonial Area Start */
+
+    .testimonial-area {
+        padding: 40px 0 0 0;
+    }
+
+    .test-title h2 {
+        font-size: 24px;
+        margin: 10px 0 15px 0;
+    }
+
+    .test-title p {
+        text-align: justify;
+        margin: 15px 0 0 0;
+    }
+
+    .test-title p br {
+        display: none;
+    }
+
+    .main-carousel {
+        padding: 65px 0 0 0;
+    }
+
+    .flickity-page-dots:first-of-type li {
+        width: 60px;
+        height: 60px;
+        left: 15%;
+        margin: 0 145px;
+        top: -370px;
+    }
+
+    .flickity-page-dots li:nth-child(2) {
+        width: 60px;
+        height: 60px;
+        bottom: -25px;
+        margin: 0 220px;
+    }
+
+    .flickity-page-dots li:nth-child(3) {
+        width: 60px;
+        height: 60px;
+        bottom: -25px;
+        padding: 0;
+        margin: 0 0 0 75px;
+    }
+
+    .flickity-prev-next-button {
+        top: 48%;
+        margin: 0;
+      }
+
+      .carousel-cell p {
+        font-size: 16px;
+        line-height: 25px;
+      }
+
+      .carousel-cell p br {
+        display: none;
+      }
+
+      /*  Expert Area Start */
+
+    .meet-expert {
+        padding: 50px 0;
+    }
+
+    .expert-title h2 {
+        font-size: 24px;
+        margin: 0 0 10px 0;
+    }
+
+    .expert-content:hover .expert-social {
+        bottom: 18%;
+    }
+
+    .expert-info h2 {
+        margin: 15px 0 10px 0;
+    }
+
+    .expert-info p {
+        margin: 0 0 20px 0;
+    }
+
+    /* -Portfolio Area Start */
+
+    .portfolio-area {
+        padding: 50px 00;
+    }
+
+    .port-title p {
+        margin: 15px 0 30px 0;
+    }
+
+    .element-item {
+        width: 100%; 
+      }
+
+      /* Offer Area start */
+
+    .offer-area {
+        padding: 50px 0;
+    }
+
+    .offer-category {
+        margin: 50px 0;
+    }
+
+    /*  News area Start */
+
+    .news-area {
+        padding: 60px 0;
+    }
+
+    .news-content {
+        margin: 0 0 45px 0;
+    }
+
+    .community-area {
+        padding: 80px 0 60px 0;
+    }
+
+    .community-content h2 {
+        font-size: 25px;
+    }
+
+    .gallery-area {
+        padding: 40px 0;
+    }
+
+    .contact-content {
+        margin: 30px 0;
+    }
+
+    .contact-content p br {
+        display: none;
+    }
+
+    .form-items {
+        padding: 20px 0;
+    }
+
+    .form-btn {
+        text-align: left;
+        margin: 30px 0;
+    }
+
+    /* Footer Start */
+
+    footer {
+        padding: 40px 0 0 0;
+    }
+
+    .footer-content2 {
+        padding-left: 0;
+    }
+
+    .footer-content {
+        margin: 30px 0 0 0;
+    } 
+
+   
+    
+    
+
+    
+
+      
+      
+      
+      
+    
+    
+
+
+   
+    
+    
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 380px) {
+
+    .main-carousel {
+        padding: 0;
+    }
+
+    .flickity-page-dots:first-of-type li {
+        left: 0%;
+    }
+
+    .carousel-cell {
+       padding: 60px 0 0 0;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
